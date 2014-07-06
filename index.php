@@ -20,7 +20,7 @@
 <body>
 
     <script type="text/javascript">
-        alert(gameWidth)
+    
         var game = new Phaser.Game(gameWidth, gameHeight, Phaser.AUTO, '', { preload: preload, create: create, update: update, render: render });
 
     </script>
